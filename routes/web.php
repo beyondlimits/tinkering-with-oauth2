@@ -11,6 +11,5 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+$router->get('{method}', 'ExampleController@_handle');
+$router->post('{method}', 'ExampleController@_handle');

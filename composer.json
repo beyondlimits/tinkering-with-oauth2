@@ -7,6 +7,8 @@
     "require": {
         "php": ">=7.1.3",
         "laravel/lumen-framework": "5.7.*",
+        "laravel/passport": "^4.0",
+        "league/oauth2-server": "6.*",
         "vlucas/phpdotenv": "~2.2"
     },
     "require-dev": {
